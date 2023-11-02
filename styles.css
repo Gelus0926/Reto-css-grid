@@ -1,0 +1,176 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+}
+
+.container{
+    background-color: rgb(10, 10, 9);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: auto auto;
+    padding: 1rem;
+}
+
+.element1{
+    grid-template-columns: 10% 40% 40% 10%;
+    display: grid;
+    grid-template-rows: 1, 4;
+    text-align: center;
+}
+.element2{
+    grid-template-columns: 30% 40% 30%;
+    display: grid;
+    grid-template-rows: 1, 3;
+    text-align: center;
+}
+.element3{
+    grid-template-columns: 30% 40% 30%;
+    display: grid;
+    grid-template-rows: 1, 3;
+    text-align: center;
+}
+
+.element3 .caja9 .caja10 .caja11 .caja12{
+    grid-template-rows: 30% 40% 30%;
+    display: grid;
+    grid-template-rows: 1, 3;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.element4{
+    grid-template-columns: 30% 40% 30%;
+    display: grid;
+    grid-template-rows: 1, 3;
+    text-align: center;
+}
+
+.element4 .caja15 .caja19 .caja25{
+    display: grid;
+    grid-template-rows:30% 40% 30%;
+    grid-template-rows: 1,3;
+    justify-content: space-between;
+}
+
+.caja1{
+    background-color: aqua;
+    padding: 3rem;
+}
+.caja2{
+    background-color:blueviolet;
+}
+.caja3{
+    background-color: rgb(68, 189, 189);
+}
+.caja4{
+    background-color: rgb(13, 54, 54);
+}
+/* Sección 2 */
+.caja5{
+    background-color: rgb(121, 163, 163);
+    padding: 3rem;
+}
+.caja6{
+    background-color: rgb(17, 197, 41);
+}
+.caja7{
+    background-color: chocolate;
+}
+/* Sección 3 */
+.caja8{
+    background-color: rgb(67, 22, 192);
+    padding: 5rem;  
+}
+
+.caja10{
+    background-color: coral;
+    padding: 2.5rem;
+}
+
+.caja11{
+    background-color: darkblue;
+    padding: 2rem;
+}
+.caja12{
+    padding: 2rem;
+    background-color: firebrick;
+}
+
+.caja13{
+    background-color: rgb(128, 78, 78);
+    display: grid;
+    text-align: center;
+    grid-template-rows: 13rem; 
+}
+
+.caja14{
+    background-color: darkmagenta;
+}
+
+/* Sección 4 */
+
+.caja15{
+    background-color: deeppink;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+}
+
+.caja16{
+    background-color: pink;
+}
+.caja17{
+    background-color: rgb(148, 91, 100);
+}
+.caja18{
+    background-color: rgb(99, 6, 86);
+    display: grid;
+    grid-template-rows: 33% 34% 33%;
+}
+.caja19{
+    background-color: rgb(252, 252, 252);
+    color: black;
+}
+.caja20{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+.caja21{
+    background-color: rgb(124, 110, 110);
+    color: white;
+}
+.caja22{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+.caja23{
+    background-color: rgb(146, 114, 65);
+}
+.caja24{
+    background-color: rgb(99, 6, 86);
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+}
+.caja25{
+    background-color: rgb(83, 148, 148);
+}
+.caja26{
+    background-color: rgb(0, 155, 155);
+    padding: 8rem;
+}
+.caja27{
+    background-color: rgb(0, 54, 155);
+}
+.caja28{
+    background-color: rgb(102, 74, 98);
+    display: grid;
+    grid-template-rows: 33% 34% 33%;
+}
+.caja29{
+    background-color: rgb(160, 175, 104)
+   
+}
+
